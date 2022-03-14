@@ -4,7 +4,7 @@ import Image from "next/image";
 const Navbar = () => {
     return ( <nav>
         <div className="logo">
-            <h1>Yindee sucks</h1>
+            <h1>How to Website</h1>
         </div>
         <Link href="/"><a>Home</a></Link>
         <Link href="/about"><a>About</a></Link>

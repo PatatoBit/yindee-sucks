@@ -1,7 +1,7 @@
 const Footer = () => {
     return ( 
     <footer>
-        Copyright 2022 | Yindee sucks
+        Copyright 2022 | How to Website
     </footer> );
 }
  
