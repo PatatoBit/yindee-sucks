@@ -7,6 +7,11 @@ import CSSCode from '../public/images/CSS_Code.png'
 import CSSPreview from '../public/images/CSS_Preview.png'
 
 export default function Home() {
+
+  function Alert() {
+    alert("Very Cool JavaScript")
+  }
+
   return (
     <>
       <Head>
@@ -28,6 +33,8 @@ export default function Home() {
       </div>
       <h2>JavaScript</h2>
       <p>JavaScript makes everything function, a button when clicked to do what.</p>
+      <button className="demo-btn">No JavaScript</button>
+      <button className="demo-btn" onClick={Alert}>With JavaScript</button>
     </>
     // YINDEE IS A STUPID SON ON A BITCH
   )

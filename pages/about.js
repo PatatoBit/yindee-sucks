@@ -7,6 +7,7 @@ export default function about() {
                 <title>How to Website | About</title>
             </Head>
             <h1>About Page</h1>
+            <p>Work in Progress...</p>
         </>
      );
 }
