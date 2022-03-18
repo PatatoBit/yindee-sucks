@@ -22,14 +22,14 @@ export default function Home() {
       <h2>HTML</h2>
       <p>HTML is the basic skeleton of what a website is, the order of what is. What text is what component.</p>
       <div className="image-wrapper">
-        <Image className="image" src={HTMLCode}/>
-        <Image className="image" src={HTMLPreview}/>
+        <Image className="image" src={HTMLCode} />
+        <Image className="image" src={HTMLPreview} />
       </div>
       <h2>CSS</h2>
       <p>CSS is very simple, it beautifies the html.</p>
       <div className="image-wrapper">
-        <Image className="image" src={CSSCode}/>
-        <Image className="image" src={CSSPreview}/>
+        <Image className="image" src={CSSCode} />
+        <Image className="image" src={CSSPreview} width={150.77777777778} height={118} />
       </div>
       <h2>JavaScript</h2>
       <p>JavaScript makes everything function, a button when clicked to do what.</p>

@@ -55,3 +55,12 @@ footer {
 .demo-btn {
   margin: 10px;
 }
+
+.worker-title {
+  text-align: center;
+}
+
+.worker-description {
+  text-align: center;
+  margin-bottom: 50px;
+}

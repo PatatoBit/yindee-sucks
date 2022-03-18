@@ -6,8 +6,20 @@ export default function about() {
             <Head>
                 <title>How to Website | About</title>
             </Head>
-            <h1>About Page</h1>
-            <p>Work in Progress...</p>
+            <h1>
+                <h1 className="worker-title">Pat</h1>            
+            </h1>
+            <h2 className="worker-description">- Worker</h2>
+
+            <h1>
+                <h1 className="worker-title">Yindee</h1>
+            </h1>
+            <h2 className="worker-description">- Manager?</h2>
+
+            <h1>
+                <h1 className="worker-title">BM & Ryu</h1>
+            </h1>
+            <h2 className="worker-description">- Designer?</h2>
         </>
      );
 }
