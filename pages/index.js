@@ -44,7 +44,7 @@ export default function Home() {
 
         <br />
         <h2>JavaScript</h2>
-        <p>JavaScript makes everything function, a button when clicked to do what.</p>
+        <p>JavaScript makes everything function, a button when clicked to do <a href="https://www.youtube.com/watch?v=9K2Y-rfUy_4">what.</a></p>
         <button className="demo-btn">No JavaScript</button>
         <button className="demo-btn" onClick={Alert}>With JavaScript</button>
       </div>
