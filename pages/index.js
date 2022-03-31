@@ -5,6 +5,7 @@ import HTMLCode from '../public/images/HTML_Code.png'
 import HTMLPreview from '../public/images/HTML_Preview.png'
 import CSSCode from '../public/images/CSS_Code.png'
 import CSSPreview from '../public/images/CSS_Preview.png'
+import Cherry from '../public/images/Cherry.jpg'
 
 export default function Home() {
 
@@ -17,7 +18,9 @@ export default function Home() {
       <Head>
         <title>How to Website | Home</title>
       </Head>
-      <div class="center">
+
+      
+      <div className="center" style={{ backgroundImage: `url(${Cherry})`}}>
         <h1>A website is created with HTML, CSS, JavaScript</h1>
         <hr />
 
